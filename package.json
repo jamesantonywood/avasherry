@@ -1,0 +1,20 @@
+{
+  "name": "ava-sherry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "barba-css.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "@barba/css": "^2.1.15"
+  }
+}
