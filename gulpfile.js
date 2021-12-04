@@ -8,7 +8,7 @@ gulp.task('html', () => {
 });
 
 gulp.task('fonts', () => {
-    return gulp.src('fonts/*')
+    return gulp.src('src/fonts/*.{woff2, woff}')
         .pipe(gulp.dest('dist/fonts'));
 })
 
