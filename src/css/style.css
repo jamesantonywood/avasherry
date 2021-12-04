@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Ortica";
   font-weight: 700;
-  src: url(ortica-bold.woff2), url(ortica-bold.woff);
+  src: url('../fonts/ortica-bold.woff2'), url('../fonts/ortica-bold.woff');
 }
 
 @font-face {
   font-family: "Ortica";
   font-weight: 400;
-  src: url(ortica-light.woff2), url(ortica-light.woff);
+  src: url('../fonts/ortica-light.woff2'), url('../fonts/ortica-light.woff');
 }
 
 :root {
@@ -146,31 +146,31 @@ section.feed img {
 
 
 
-.fade-leave-active,
-.fade-enter-active,
-.fade-once-active {
+.barba-leave-active,
+.barba-enter-active,
+.barba-once-active {
   transition: opacity var(--timing) var(--bezier),
               transform var(--timing) var(--bezier);
 }
 
-.fade-leave {
+.barba-leave {
   opacity: 1;
   transform: translate(0, 0);
 }
 
-.fade-leave-to {
+.barba-leave-to {
   opacity: 0;
   transform: translate(0, 30px);
 }
 
-.fade-enter,
-.fade-once {
+.barba-enter,
+.barba-once {
   opacity: 0;
   transform: translate(0, 30px);
 }
 
-.fade-enter-to,
-.fade-once-to {
+.barba-enter-to,
+.barba-once-to {
   opacity: 1;
   transform: translate(0, 0);
 }
